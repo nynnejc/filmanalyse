@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         FileReader fileReader = new FileReader();
-        ArrayList<Movie> movies = fileReader.readMovies("./film-imdb.csv");
+        ArrayList<Movie> movies = fileReader.readMovies("./FilmAnalyse/film-imdb.csv");
 
         if (movies.isEmpty()) {
             System.out.println("No movies found in the file.");
